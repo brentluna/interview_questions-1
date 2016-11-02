@@ -9,13 +9,13 @@ describe("Chapter 7 Question", function () {
      it("converts an integer to a string", function() {
        var int = 37;
        var result = intToString(int);
-       expect(result).to.equal('thirty-seven');
+       expect(result).to.equal('37');
      });
    });
 
    describe("#stringToInt", function() {
      it("converts a string to an integer", function() {
-       var str = 'thirty-seven';
+       var str = '37';
        var result = stringToInt(str);
        expect(result).to.equal(37);
      });
